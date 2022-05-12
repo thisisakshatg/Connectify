@@ -1,0 +1,76 @@
+.form__upload {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.form__upload:focus + label {
+  outline: 3px solid #673ab7;
+  outline-offset: 3px;
+}
+
+.form__upload + label {
+  color: #673ab7;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 2px solid #673ab7;
+  padding: 3px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.form__upload + label:hover {
+  background-color: #673ab7;
+  color: #fff;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.new-post-box {
+  margin: 4rem auto;
+}
+
+.form__label {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.form__label.fileInput {
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+.postSubmitBtn {
+  margin: 1rem 11rem;
+}
+
+.login-form.new-post-form {
+  max-width: 51rem;
+  padding: 4.4rem 7rem;
+  position: relative;
+}
+
+.file-input-box {
+  display: flex;
+  align-items: baseline;
+  gap: 2.4rem;
+}
+
+.newpost-caption-closebtn-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.btn-mobile-nav.new-post-box-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 14px;
+}

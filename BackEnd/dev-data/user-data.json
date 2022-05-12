@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "61f40180c853fee88f45d52f"
+  },
+  "name": "Oliver Queen",
+  "email": "oliverqueen@gmail.com",
+  "followerCount": "10",
+  "followingCount": "20",
+  "password": "test1234",
+  "photo": "user-1.jpg",
+  "postCount": "2",
+  "status": "In heaven!!"
+},{
+  "_id": {
+    "$oid": "61f52c35732266697f038227"
+  },
+  "name": "Kara Danvers",
+  "email": "karadanvers@gmail.com",
+  "followerCount": "20",
+  "followingCount": "10",
+  "password": "test1234",
+  "photo": "user-2.jpg",
+  "postCount": "3",
+  "status": "Food!"
+},{
+  "_id": {
+    "$oid": "61f52c6a732266697f038228"
+  },
+  "name": "Alex Danvers",
+  "email": "alex@gmail.com",
+  "followerCount": "5",
+  "followingCount": "5",
+  "password": "test1234",
+  "photo": "user-3.jpg",
+  "postCount": "4",
+  "status": "In hell!"
+},{
+  "_id": {
+    "$oid": "61f52c91732266697f038229"
+  },
+  "name": "Sara Lance",
+  "email": "sara@gmail.com",
+  "followerCount": "7",
+  "followingCount": "4",
+  "password": "test1234",
+  "photo": "user-4.jpg",
+  "postCount": "5",
+  "status": "Mom to 8 legends!"
+},{
+  "_id": {
+    "$oid": "61f52cf2732266697f03822a"
+  },
+  "name": "Laurel Lance",
+  "email": "laurel@gmail.com",
+  "followerCount": "6",
+  "followingCount": "8",
+  "password": "test1234",
+  "photo": "user-5.jpg",
+  "postCount": "8",
+  "status": "Loving the black ;)"
+},{
+  "_id": {
+    "$oid": "61f7c49dfbc9ed6120919ff1"
+  },
+  "photo": "default.jpg",
+  "role": "user",
+  "postCount": 0,
+  "followerCount": 0,
+  "followingCount": 0,
+  "status": "Hi there! Im awesome!",
+  "name": "Barry Allen",
+  "email": "barry@gmail.com",
+  "password": "test1234",
+  "passwordConfirm": "test1234",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61f7e48c309e84507ce94f34"
+  },
+  "photo": "default.jpg",
+  "role": "user",
+  "postCount": 0,
+  "followerCount": 0,
+  "followingCount": 0,
+  "status": "Hi there! Im awesome!",
+  "name": "Hermione Granger",
+  "email": "hermione@gmail.com",
+  "password": "$2b$12$p97Df2RSjcXO9K7ppMWwSuMAVCBCqNl.MpZaGDrkh9Z3mBTc2svoa",
+  "__v": 0
+}]

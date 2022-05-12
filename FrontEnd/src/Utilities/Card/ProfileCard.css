@@ -1,0 +1,193 @@
+.profile-card {
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-box-shadow: 0.5rem 1rem 1.5rem rgba(0, 0, 0, 0.07);
+  box-shadow: 0.5rem 1rem 1.5rem rgba(0, 0, 0, 0.07);
+  background-color: #fff;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.all-like-box {
+  max-width: 60rem;
+  height: 54rem;
+  border-radius: 10px;
+  margin: 10rem auto;
+  -webkit-box-shadow: 0.5rem 1rem 1.5rem rgba(0, 0, 0, 0.07);
+  box-shadow: 0.5rem 1rem 1.5rem rgba(0, 0, 0, 0.07);
+  background-color: white;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  z-index: 9999;
+  padding: 3rem 4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.profile-bg-video__content {
+  height: 30rem;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.profile-card__picture-img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 30rem;
+  width: 100%;
+}
+
+.overlay-close {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #333;
+}
+
+.all-like-box::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+.profile-card-picture {
+  position: relative;
+}
+
+.profile-card .btn {
+  font-size: 1.4rem;
+  padding: 1rem 1.6rem;
+  font-weight: 500;
+}
+
+.profile-card__sub-heading {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  grid-column: 1 / -1;
+}
+
+.profile-card__footer {
+  padding: 0.8rem 3rem;
+  font-size: 1.4rem;
+  display: flex;
+  margin-top: auto;
+  justify-content: space-between;
+}
+
+.fas.fa-trash {
+  font-size: 4rem;
+  background: #e52d27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b31217, #e52d27); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b31217,
+    #e52d27
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.all-like-box.delete-box {
+  height: 26rem;
+  max-width: 70rem;
+  overflow-y: hidden;
+}
+
+.delete-warning {
+  font-size: 2rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.trash-icon-box {
+  border: 5px solid rgba(255, 0, 0, 0.737);
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 2.6rem;
+  margin-bottom: 2rem;
+}
+
+.delete-style-box {
+  text-align: center;
+}
+
+.deletePostContainer {
+  width: 100%;
+}
+
+.cancel-btn {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  background-color: #f1f3f5;
+  color: #555;
+  border-radius: 4px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  border: none;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: #dee2e6;
+}
+
+.delete-modal-btn-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn.delete-btn {
+  background-color: #ce2923;
+  color: #fff;
+}
+
+.delete-post-btn {
+  color: #b31217;
+  background-color: white;
+  border: 2px solid #b31217;
+  border-radius: 8px;
+  font-weight: 500 !important;
+}
+
+.delete-post-btn:active,
+.delete-post-btn:hover,
+.delete-post-btn:focus,
+.delete-post-btn:visited {
+  border: 2px solid none;
+  transform: translateY(0);
+  box-shadow: none;
+  background-color: #b31217 !important;
+  color: #fff;
+}
+
+.edit-post-btn,
+.edit-post-btn:active,
+.edit-post-btn:visited,
+.edit-post-btn:focus {
+  background: #673ab7;
+  border-radius: 8px;
+}
+
+.edit-post-btn:hover {
+  transform: translateY(0);
+  background: #522e92;
+}

@@ -1,0 +1,38 @@
+.alert {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 99999;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 1.2rem 10rem;
+  -webkit-box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.18);
+  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.18);
+  letter-spacing: 1px;
+}
+
+.alert--success {
+  background: #673ab7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #512da8, #673ab7); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #512da8,
+    #673ab7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.alert--error {
+  background: #cb2d3e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ef473a,
+    #cb2d3e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7580624b.chunk.css",
+    "main.js": "/static/js/main.43bf9824.chunk.js",
+    "main.js.map": "/static/js/main.43bf9824.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.de2ce6ea.js",
+    "runtime-main.js.map": "/static/js/runtime-main.de2ce6ea.js.map",
+    "static/js/2.120f2a51.chunk.js": "/static/js/2.120f2a51.chunk.js",
+    "static/js/2.120f2a51.chunk.js.map": "/static/js/2.120f2a51.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7580624b.chunk.css.map": "/static/css/main.7580624b.chunk.css.map",
+    "static/js/2.120f2a51.chunk.js.LICENSE.txt": "/static/js/2.120f2a51.chunk.js.LICENSE.txt",
+    "static/media/Cait.37d585eb.png": "/static/media/Cait.37d585eb.png",
+    "static/media/Chy.0b3cf508.jpg": "/static/media/Chy.0b3cf508.jpg",
+    "static/media/Footer-logo.57a8f164.png": "/static/media/Footer-logo.57a8f164.png",
+    "static/media/Rach.58006271.png": "/static/media/Rach.58006271.png",
+    "static/media/about-img.bb9b748c.png": "/static/media/about-img.bb9b748c.png",
+    "static/media/bgVideo.05633e89.mp4": "/static/media/bgVideo.05633e89.mp4",
+    "static/media/business-insider.f600197c.png": "/static/media/business-insider.f600197c.png",
+    "static/media/cover-img.a1779703.jpg": "/static/media/cover-img.a1779703.jpg",
+    "static/media/crop.850d5a11.jpg": "/static/media/crop.850d5a11.jpg",
+    "static/media/forbes.198688db.png": "/static/media/forbes.198688db.png",
+    "static/media/logo-white.a5d6d5e3.png": "/static/media/logo-white.a5d6d5e3.png",
+    "static/media/techcrunch.4d966bb9.png": "/static/media/techcrunch.4d966bb9.png",
+    "static/media/the-new-york-times.fedc85b2.png": "/static/media/the-new-york-times.fedc85b2.png",
+    "static/media/usa-today.1c078f39.png": "/static/media/usa-today.1c078f39.png",
+    "static/media/Merits.css": "/static/media/x.ddba3f52.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de2ce6ea.js",
+    "static/js/2.120f2a51.chunk.js",
+    "static/css/main.7580624b.chunk.css",
+    "static/js/main.43bf9824.chunk.js"
+  ]
+}

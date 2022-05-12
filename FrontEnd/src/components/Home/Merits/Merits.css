@@ -1,0 +1,114 @@
+/* ************************ */
+/* MERITS */
+/* ************************ */
+
+.section-merits {
+  padding: 18rem 0;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      from(rgba(126, 213, 111, 0.8)),
+      to(rgba(40, 180, 133, 0.8))
+    ),
+    url(../../../assets/x.jpg);
+  background-image: linear-gradient(to right bottom, #683ab7e0, #522da8de),
+    url(../../../assets/x.jpg);
+  background-size: cover;
+  -webkit-transform: skewY(-7deg);
+  transform: skewY(-7deg);
+  margin-top: -5rem;
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.row [class^='col-']:not(:last-child) {
+  margin-right: 6rem;
+}
+.row .col-1-of-4 {
+  width: calc((100% - 3 * 6rem) / 4);
+}
+.row [class^='col-'] {
+  float: left;
+}
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 3.7rem;
+  text-align: center;
+  color: #777;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.feature-box:hover {
+  -webkit-transform: translateY(-1.5rem) scale(1.03);
+  transform: translateY(-1.5rem) scale(1.03);
+}
+
+.fas {
+  font-size: 3.2rem;
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, from(#492997), to(#6d54ac));
+  background-image: linear-gradient(to right, #492997, #6d54ac);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.fa-ban {
+  font-size: 2.8rem;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 0.5rem !important;
+}
+
+.heading-card {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 1.6rem;
+  margin-top: 3rem;
+}
+
+.section-merits > * {
+  -webkit-transform: skewY(7deg);
+  transform: skewY(7deg);
+}
+
+.icon-basic-heart::before {
+  content: 'W';
+}
+
+/* .icon-basic-world::before {
+  content: '\e028';
+} */
+
+[class^='icon-']::before,
+[class*=' icon-']::before {
+  font-family: 'linea-basic-10' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

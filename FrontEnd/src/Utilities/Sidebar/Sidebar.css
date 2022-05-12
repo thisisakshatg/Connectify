@@ -1,0 +1,42 @@
+.sidebar-overview {
+  padding: 10rem;
+}
+
+.sidebar-element {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.sidebar-icon-desc {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.sidebar-link:link,
+.sidebar-link:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: inline-block;
+  transition: all 0.3s;
+  color: #666;
+}
+
+.sidebar-link:hover,
+.sidebar-link:active {
+  outline: none;
+  color: #492997;
+  transform: translateY(-6px);
+}
+
+.sidebar-element .fas,
+.sidebar-element .far {
+  font-size: 2.2rem;
+}
+
+.friends-desc {
+  margin-left: -1rem;
+}

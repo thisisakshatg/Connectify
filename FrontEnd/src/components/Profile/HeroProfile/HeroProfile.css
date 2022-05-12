@@ -1,0 +1,26 @@
+.profile {
+  padding: 5rem 0;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+}
+
+.profile-card-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 7rem;
+  padding: 0 10rem;
+}
+
+.empty-post-msg {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 600;
+  color: #555;
+}
+
+.empty-post-msg:last-child {
+  margin-bottom: 14.4rem;
+}

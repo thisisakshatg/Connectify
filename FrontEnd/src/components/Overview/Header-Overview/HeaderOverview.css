@@ -1,0 +1,70 @@
+.header__input {
+  width: 50rem;
+  border-radius: 2.4rem;
+}
+
+.header-overview .btn:focus {
+  outline: none;
+  background: none;
+}
+
+.header .far {
+  color: #fff;
+}
+
+.header-overview .btn {
+  padding: 0.8rem 1.4rem;
+  font-size: 1.4rem;
+  border: solid white 1px;
+}
+
+.header-overview .btn:hover {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.nav__el:focus {
+  outline: none;
+}
+.nav__el:hover,
+.nav__el:active {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+  text-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.479);
+}
+.nav__el,
+.nav__el:link,
+.nav__el:visited {
+  color: #f7f7f7;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-weight: 400;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.nav__user-img {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.btn--logout {
+  background-color: #454650;
+}
+
+.search-error-box {
+  margin: 10rem 9rem;
+}

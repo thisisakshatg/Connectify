@@ -1,0 +1,28 @@
+.like-container {
+  display: flex;
+  gap: 4.8rem;
+  padding: 1rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.like-img {
+  height: 6.4rem;
+  width: 6.4rem;
+  border-radius: 50%;
+}
+
+.like-container .like-name.overview-link:link,
+.like-name.overview-link:visited {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: #666;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.like-name.overview-link:hover,
+.like-name.overview-link:active {
+  transform: translateY(-2px);
+}
